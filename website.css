@@ -5,3 +5,7 @@ body {
 	background: url("http://ucanr.edu/blogs/bugsquad//blogfiles/12925_original.jpg");
 	background-size: cover;
 }
+li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+}
