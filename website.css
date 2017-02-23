@@ -1,3 +1,7 @@
 p {
 	color: red;
 }
+body {
+	background: url("http://ucanr.edu/blogs/bugsquad//blogfiles/12925_original.jpg");
+	background-size: cover;
+}
