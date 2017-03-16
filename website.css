@@ -1,9 +1,20 @@
+header {
+	height: 300px;
+	text-align: center;
+	
+
+}
 p {
 	color: red;
 }
 body {
 	background: url("http://ucanr.edu/blogs/bugsquad//blogfiles/12925_original.jpg");
 	background-size: cover;
+	
+}
+ul {
+	background: rgba(230,199,121,0.5);
+	padding:20px 0px 20px 0px;
 }
 li {
 	display: inline;
