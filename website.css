@@ -1,6 +1,6 @@
 header {
 	text-align: center;
-	background: rgba(230, 199, 121, 0.45);
+	background: rgba(230, 199, 121, 0.4);
 	margin: -20px 0px 0px 0px;
 }
 
@@ -21,13 +21,17 @@ body {
 }
 ul {
 	background: rgba(230, 199, 121, 0.15);
-	padding:20px 0px 20px 0px;
+	padding: 18px 0px 18px 0px;
 }
 li {
 	display: inline;
 	background: rgba(230, 199, 121, 0);
 	padding:20px 10px 20px 10px;
-	color: rgb(0, 0, 0);
+	color: rgba(0, 0, 0, 0.5);
 	font-size: 16px;
-	opacity: 0.5;
+	
+}
+li:hover {
+	background-color: rgba(200, 165, 90, 0.4);
+	color: rgba(0, 0, 0, 1);
 }
