@@ -1,19 +1,26 @@
 header {
-	height: 300px;
 	text-align: center;
-	
+	background: rgba(230, 199, 121, 0.5);
+	margin: -20px 0px 0px 0px;
+}
 
+h1{
+	padding: 50px;
 }
 p {
-	color: red;
+	text-align: center;
+	color: black;
+
+	
 }
 body {
 	background: url("http://ucanr.edu/blogs/bugsquad//blogfiles/12925_original.jpg");
 	background-size: cover;
 	
+	
 }
 ul {
-	background: rgba(230,199,121,0.5);
+	background: rgba(230, 199, 121, 0.5);
 	padding:20px 0px 20px 0px;
 }
 li {
