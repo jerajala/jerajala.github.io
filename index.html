@@ -12,19 +12,46 @@
 	<body>
 		<header>
 			<h1>Bee Page</h1>
-			<ul class 'nav'>
-				<li>About Bees</li>
-				<li>Related Articles</li>
-				<li>How To Save Bees</li>
-				<li>Something Else</li>
+			<ul class='nav-bar'>
+				<li class='nav-item' id='navhome'>Home</li>
+				<li class='nav-item' id='navabbee'>About Bees</li>
+				<li class='nav-item' id='navrelart'>Related Articles</li>
+				<li class='nav-item' id='navhtsb'>How To Save Bees</li>
+				<li class='nav-item' id='navse'>Something Else</li>
 			</ul>
 		</header>
 
-		<p>
-		Bees are in danger and on this page you can find out why bees are important, why they are in danger and what you can do to save them.
-		</p>
+		<div id="home" class="coretext">
+			<p>
+			Bees are in danger and on this page you can find out why bees are important, why they are in danger and what you can do to save them.
+			</p>
+		</div>
+		
+		<div id="aboutbees" class="coretext">
+			<!--	Here comes the text about bees -->
+			<p> Sample paragraph </p>
+		</div>
+		
+		<div id="relart" class="coretext">
+			<!-- Here comes related articles and whatever -->
+			<p>Another sample paragraph</p>
+		</div>
+
+		<div id="htsb" class="coretext">
+			<!-- Here comes the text of how to save bees -->
+			<p>Yet again a sample paragraph</p>
+		</div>
+
+		<div id="se" class="coretext">
+			<!-- Here comes whatever our someting else part will be -->
+			<p>Something else</p>
+		</div>
+
 		<button>Like!</button>
 
+		<script>
+			$("#aboutbees, #relart, #htsb, #se").hide();
+		</script>
 	</body>
 
 </html>
