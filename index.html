@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script src="https://code.jquery.com/jquery-3.1.1.js"
   				integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
   				crossorigin="anonymous"></script>
   		<script type="text/javascript" src="jquery.js"></script>	
   		<link type="text/css" href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
 		<link rel="stylesheet" type="text/css" href="website.css">
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat" rel="stylesheet">
 		<title>Bee Page</title>
 	</head>
 	<body>
 		<header>
-			<h1>Bee Page</h1>
+			<h1>Bee Page</h1> <!-- change the name of the page? -->
 			<ul class='nav-bar'>
 				<li class='nav-item' id='navhome'>Home</li>
 				<li class='nav-item' id='navabbee'>About Bees</li>
@@ -21,34 +23,72 @@
 			</ul>
 		</header>
 
+
+		<div id="content">
+			<div id="home" class="coretext">
+				<p>
+				Bees are in danger and on this page you can find out why bees are important, why they are in danger and what you can do to save them.
+				</p>
+			</div>
+
 		<div id="home" class="coretext">
 			<p>
 			<!-- Here comes what we want our landing/home page to say-->
 			Bees are in danger and on this page you can find out why bees are important, why they are in danger and what you can do to save them.
 			</p>
 		</div>
+
 		
-		<div id="aboutbees" class="coretext">
-			<!--	Here comes the text about bees -->
-			<p> Sample paragraph </p>
-		</div>
+			<div id="aboutbees" class="coretext">
+				<!--	Here comes the text about bees -->
+				<!-- Just a draft, feel free to change and write into paragraphs or not, and are we talking only about honey bees or bees in general? -->
+				<ul id="beeinfo">
+				<li>There are many species of bees including honey bees and bumblebees</li>
+				<li>Especially honey bees are the pollinators of the majority of our food crops and this is why we depend on them that much</li>
+				<li>Honey bees produce honey and beeswax</li>
+				<li>Honey bees don't necessarily die after one sting <!-- https://www.earthsfriends.com/the-honey-bee/ --></li>
+				</ul>
+
+			</div>
 		
-		<div id="relart" class="coretext">
-			<!-- Here comes related articles and whatever -->
-			<p>Another sample paragraph</p>
-		</div>
+			<div id="relart" class="coretext">
+				<!-- Here comes related articles and whatever -->
+				<!-- Feel free to change these, and make them look nice or whatever -->
+				
+				<a href="https://www.newscientist.com/article/2120832-robotic-bee-could-help-pollinate-crops-as-real-bees-decline/" target="_blank" class="articles">
+				Robotic bee could help pollinate crops as real bees decline
+				</a>
+				<p>
+					In case the bees become extinct at least we have robot bees coming!
+				</p>
 
-		<div id="htsb" class="coretext">
-			<!-- Here comes the text of how to save bees -->
-			<p>Yet again a sample paragraph</p>
-		</div>
+				<a href="http://www.independent.co.uk/news/science/robot-bees-vs-real-bees-why-tiny-drones-cant-compete-with-the-real-thing-a7573826.html" target="_blank" class="articles">Robot bees vs real bees – why tiny drones can't compete with the real thing</a>
+				<p>
+					However electronic bees have still a lot to learn as this article suggests.
+				</p>
 
-		<div id="se" class="coretext">
-			<!-- Here comes whatever our someting else part will be -->
-			<p>Something else</p>
-		</div>
+				<a href="https://www.earthsfriends.com/the-honey-bee/" target="_blank" class="articles">Is The Honey Bee In Danger of Extinction?</a>
+				<p>
+					Facts about honey bees that you might not have known and theories of bee extinction.
+				</p>
 
-		<button>Like!</button>
+
+			</div>
+
+			<div id="htsb" class="coretext">
+				<!-- Here comes the text of how to save bees -->
+				<p>Yet again a sample paragraph</p>
+
+				<!-- here's a link that tells what you can do to help bumblebees, didn't have the time to modify it into text yet: http://bumblebeeconservation.org/get-involved -->
+			</div>
+
+			<div id="se" class="coretext">
+				<!-- Here comes whatever our someting else part will be -->
+				<p>Something else</p>
+			</div>
+		
+			<button>Like!</button>
+		</div>
 
 		<script>
 			$("#aboutbees, #relart, #htsb, #se").hide();

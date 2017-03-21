@@ -6,6 +6,8 @@ header {
 
 h1{
 	padding: 50px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 70px;
 }
 p {
 	text-align: center;
@@ -15,23 +17,74 @@ p {
 }
 body {
 	background: url("http://ucanr.edu/blogs/bugsquad//blogfiles/12925_original.jpg");
-	background-size: cover;
-	
+	background-size: cover; /* the image doubles on small screen? */
+	font-family: 'Montserrat', sans-serif;
 	
 }
-ul {
+.nav-bar {
 	background: rgba(230, 199, 121, 0.15);
 	padding: 18px 0px 18px 0px;
 }
-li {
+.nav-item {
 	display: inline;
 	background: rgba(230, 199, 121, 0);
 	padding:20px 10px 20px 10px;
-	color: rgba(0, 0, 0, 0.5);
+	color: rgba(0, 0, 0, 0.6);
 	font-size: 16px;
 	
 }
-li:hover {
+.nav-item:hover {
 	background-color: rgba(200, 165, 90, 0.4);
 	color: rgba(0, 0, 0, 1);
+}
+
+
+
+}
+
+.coretext {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 40px;
+
+
+}
+
+}
+#beeinfo {
+	list-style-position: inside;
+}
+
+.articles {
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+   
+.articles:hover {
+	text-decoration: none;
+	color: rgba(70, 60, 50, 1);
+}
+
+
+
+@media (max-width: 652px) { /* the width of the picture */ 
+	body {
+		background-image: url("backgroundbee.jpg");  /*what should it look like on a small screen? */
+		
+	}	
+	.nav-item {
+		display: block;
+		padding: 5px;
+
+	}
+	.nav-bar {
+		padding: 0;
+	}
+	h1{
+		padding: 15px 0 15px 0;
+		font-size: 50px;
+	}
+
+
 }
