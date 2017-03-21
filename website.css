@@ -19,6 +19,7 @@ body {
 	background: url("http://ucanr.edu/blogs/bugsquad//blogfiles/12925_original.jpg");
 	background-size: cover; /* the image doubles on small screen? */
 	font-family: 'Montserrat', sans-serif;
+	text-align: center;
 	
 }
 .nav-bar {
@@ -43,7 +44,6 @@ body {
 }
 
 .coretext {
-	text-align: center;
 	margin: 0 auto;
 	padding-top: 40px;
 
