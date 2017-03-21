@@ -2,11 +2,12 @@ header {
 	text-align: center;
 	background: rgba(230, 199, 121, 0.4);
 	margin: -20px 0px 0px 0px;
-	
 }
 
 h1{
 	padding: 50px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 70px;
 }
 p {
 	text-align: center;
@@ -17,9 +18,7 @@ p {
 body {
 	background: url("http://ucanr.edu/blogs/bugsquad//blogfiles/12925_original.jpg");
 	background-size: cover; /* the image doubles on small screen? */
-	
-	
-	
+	font-family: 'Montserrat', sans-serif;
 	
 }
 .nav-bar {
@@ -41,7 +40,7 @@ body {
 
 
 #container {
-	background: rgba(230, 199, 121, 0.3);
+	background: rgba(230, 199, 121, 0.4);
 	width: 60%;
 	height: 100%; /* Want the height to be full page but don't know how to do that */
 	position: relative;
@@ -58,9 +57,24 @@ body {
 
 
 }
+
+}
 #beeinfo {
 	list-style-position: inside;
 }
+
+.articles {
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+   
+.articles:hover {
+	text-decoration: none;
+	color: rgba(70, 60, 50, 1);
+}
+
+
 
 @media (max-width: 652px) { /* the width of the picture */ 
 	body {
@@ -76,9 +90,12 @@ body {
 		padding: 0;
 	}
 	h1{
-		padding: 5px;
+		padding: 15px 0 15px 0;
+		font-size: 50px;
 	}
-
-
+	#container {
+		width: 100%;
+		text-align: center;
+	}
 
 }
