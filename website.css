@@ -12,6 +12,7 @@ h1{
 p {
 	text-align: center;
 	color: black;
+	font-size: 16px;
 
 	
 }
@@ -39,21 +40,34 @@ body {
 	color: rgba(0, 0, 0, 1);
 }
 
-
-
-
+#content {
+	background: rgba(230, 199, 121, 0.5);
+	margin: 0px 100px 0px 100px;
+	padding: 50pxS;
 }
+
+
 
 .coretext {
 	margin: 0 auto;
-	padding-top: 40px;
+	padding: 50px;
 
 
 }
 
-}
-#beeinfo {
+
+.htsblist {
 	list-style-position: inside;
+	font-size: 16px;
+	color: black;
+}
+.intextlink {
+	color: black;
+	font-weight: bold;
+}
+.intextlink:hover {
+	text-decoration: none;
+	color: rgba(70, 60, 50, 1);
 }
 
 .articles {
